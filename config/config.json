@@ -1,0 +1,46 @@
+{
+  "intent_greeting": {
+    "utterances":[
+      "tony",
+      "wake up tony",
+      "hello tony",
+      "hi tony"
+    ],
+    "responses": [
+      "hello sir, how may i help you?",
+      "hello sir, always at your service"
+    ]
+  },
+  "intent_applications": {
+    "utterances": [
+      "open",
+      "launch"
+    ],
+    "applications": {
+      "car": "C:\\Users\\Public\\Desktop\\Arduino.lnk",
+      "chrome": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+      "pc": "C:\\Users\\Public\\Desktop\\PyCharm Community Edition 2020.2.1 x64.lnk"
+    },
+    "responses": [
+      "ok sir",
+      "sure sir"
+    ]
+  },
+  "intent_close": {
+    "utterances": [
+      "close",
+      "end",
+      "terminate",
+      "stop"
+    ],
+     "applications": {
+      "chrome": "chrome.exe",
+       "car": "arduino.lnk"
+    },
+    "responses": [
+      "closing",
+      "on your command sir",
+      "as your wish sir"
+    ]
+  }
+}
